@@ -1,12 +1,14 @@
 package co.com.poli.Showtimesservice.controller;
 
-
+import co.com.poli.Showtimesservice.clientFeign.MovieClient;
+import co.com.poli.Showtimesservice.model.Movie;
 import co.com.poli.Showtimesservice.persistence.entity.Showtime;
 import co.com.poli.Showtimesservice.helpers.Response;
 import co.com.poli.Showtimesservice.helpers.ResponseBuild;
 import co.com.poli.Showtimesservice.service.ShowtimeService;
 import co.com.poli.Showtimesservice.service.dto.ShowtimeInDTO;
 import lombok.RequiredArgsConstructor;
+import org.modelmapper.ModelMapper;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,7 +23,6 @@ public class ShowtimeController {
 
     private final ShowtimeService showtimeService;
     private final ResponseBuild builder;
-
     @GetMapping
     public Response findAll(){
         return builder.success(showtimeService.findAll());
@@ -30,15 +31,19 @@ public class ShowtimeController {
     @PostMapping
     public Response save(@Valid @RequestBody ShowtimeInDTO showtimeInDTO, BindingResult result){
         if(result.hasErrors()){
-            return builder.failed(this.formatMessage(result));
+            return builder.failed(result);
         }
         showtimeService.save(showtimeInDTO);
         return builder.success(showtimeInDTO);
     }
 
     @GetMapping("/{id}")
-    public Response findByID(@PathVariable("id") Long id){
-        return builder.success(showtimeService.findById(id));
+    public Response getById(@PathVariable("id") Long id){
+        Showtime showtime = showtimeService.findById(id);
+        if(showtime == null){
+            return builder.failed("Not found");
+        }
+        return builder.success(showtime);
     }
 
     @PutMapping("/{id}")
@@ -50,6 +55,7 @@ public class ShowtimeController {
         showtimeService.updateById(showtimeToUpdate, showtime);
         return builder.success();
     }
+
 
     private List<Map<String, String>> formatMessage(BindingResult result) {
         List<Map<String, String>> errors = result.getFieldErrors().stream()

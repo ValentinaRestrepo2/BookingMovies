@@ -6,12 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="042b281a-653e-41ea-8e4f-55db4f9d6bd5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/BookingInDTOToBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/BookingInDTOToBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/repository/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/dto/BookingInDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/dto/BookingInDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/showtimes-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/controller/ShowtimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/controller/ShowtimeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/mapper/ShowtimeInDTOToShowtime.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/mapper/ShowtimeInDTOToShowtime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/dto/ShowtimeInDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/dto/ShowtimeInDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,25 +73,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/valen/Downloads/7.deckofcards&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ececfea7903a6bd7948d22e3b6399cbd&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/valen/Downloads/7.deckofcards",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "ececfea7903a6bd7948d22e3b6399cbd"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\valen\Desktop\BookingMovie\bookings-service\src\main\java\co\com\poli\bookingsservice" />
@@ -256,7 +260,7 @@
       <workItem from="1670897431534" duration="6367000" />
       <workItem from="1670940072508" duration="615000" />
       <workItem from="1670942294181" duration="2424000" />
-      <workItem from="1670980300426" duration="2805000" />
+      <workItem from="1670980300426" duration="7165000" />
     </task>
     <servers />
   </component>

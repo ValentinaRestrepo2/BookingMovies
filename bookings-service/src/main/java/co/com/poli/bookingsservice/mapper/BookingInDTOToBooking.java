@@ -8,8 +8,10 @@ import org.springframework.stereotype.Component;
     public class BookingInDTOToBooking implements IMapper<BookingInDTO, Booking> {
     @Override
     public Booking map(BookingInDTO in) {
-        Booking movie = new Booking();
-        //movie.setTitle(in.getTitle());
-        return movie;
+        Booking booking = new Booking();
+        booking.setUserid(in.getUserid());
+        booking.setShowtimeid(in.getShowtimeid());
+        booking.setMovies(in.getMovies());
+        return booking;
     }
 }
