@@ -8,8 +8,10 @@ import org.springframework.stereotype.Component;
     public class ShowtimeInDTOToShowtime implements IMapper<ShowtimeInDTO, Showtime> {
     @Override
     public Showtime map(ShowtimeInDTO in) {
-        Showtime movie = new Showtime();
-        //movie.setTitle(in.getTitle());
-        return movie;
+        Showtime showtime = new Showtime();
+        showtime.setDate(in.getDate());
+        showtime.setMovies(in.getMovies());
+        showtime.setListMovies(in.getListMovies());
+        return showtime;
     }
 }

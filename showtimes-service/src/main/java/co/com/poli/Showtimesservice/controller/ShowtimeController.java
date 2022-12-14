@@ -5,8 +5,8 @@ import co.com.poli.Showtimesservice.persistence.entity.Showtime;
 import co.com.poli.Showtimesservice.helpers.Response;
 import co.com.poli.Showtimesservice.helpers.ResponseBuild;
 import co.com.poli.Showtimesservice.service.ShowtimeService;
+import co.com.poli.Showtimesservice.service.dto.ShowtimeInDTO;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
@@ -28,12 +28,12 @@ public class ShowtimeController {
     }
 
     @PostMapping
-    public Response save(@Valid @RequestBody Showtime showtime, BindingResult result){
+    public Response save(@Valid @RequestBody ShowtimeInDTO showtimeInDTO, BindingResult result){
         if(result.hasErrors()){
             return builder.failed(this.formatMessage(result));
         }
-        showtimeService.save(showtime);
-        return builder.success(showtime);
+        showtimeService.save(showtimeInDTO);
+        return builder.success(showtimeInDTO);
     }
 
     @GetMapping("/{id}")

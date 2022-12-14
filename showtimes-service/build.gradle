@@ -14,7 +14,6 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'de.codecentric:spring-boot-admin-starter-client'
-    implementation 'org.modelmapper:modelmapper'
 
 
     runtimeOnly 'com.h2database:h2'

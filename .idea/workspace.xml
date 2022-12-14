@@ -5,136 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="042b281a-653e-41ea-8e4f-55db4f9d6bd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-service/src/main/java/co/com/poli/adminservice/AdminServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-service/src/test/java/co/com/poli/adminservice/AdminServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/BookingServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClientHystrixFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/ShowtimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/ShowtimeClientHystrixFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/UserClientFallBackHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/controller/BookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/helpers/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/helpers/ResponseBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/BookingInDTOToBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/IMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/model/Showtime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/entity/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/repository/BookingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/dto/BookingInDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/test/java/co/com/poli/bookingsservice/BookingServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/java/co/com/poli/configservice/ConfigServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/test/java/co/com/poli/configservice/ConfigServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/src/main/java/co/com/poli/eurekaservice/EurekaServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/src/test/java/co/com/poli/eurekaservice/EurekaServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/co/com/poli/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/test/java/co/com/poli/gatewayservice/GatewayServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/java/co/com/poli/movieservice/MovieServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/java/co/com/poli/movieservice/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/java/co/com/poli/movieservice/helpers/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/java/co/com/poli/movieservice/helpers/ResponseBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/java/co/com/poli/movieservice/mapper/IMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/java/co/com/poli/movieservice/mapper/MovieInDTOToMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/java/co/com/poli/movieservice/persistence/entity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/java/co/com/poli/movieservice/persistence/repository/MovieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/java/co/com/poli/movieservice/service/MovieServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/java/co/com/poli/movieservice/service/MovieServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/java/co/com/poli/movieservice/service/dto/MovieInDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/ShowtimeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/clientFeign/MovieClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/clientFeign/MovieClientImplHystrixFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/controller/ShowtimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/helpers/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/helpers/ResponseBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/mapper/IMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/mapper/ShowtimeInDTOToShowtime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/persistence/entity/Showtime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/persistence/repository/ShowtimeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/dto/ShowtimeInDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showtimes-service/src/test/java/co/com/poli/Showtimesservice/ShowtimeServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/co/com/poli/userservice/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/co/com/poli/userservice/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/co/com/poli/userservice/helpers/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/co/com/poli/userservice/helpers/ResponseBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/co/com/poli/userservice/mapper/IMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/co/com/poli/userservice/mapper/UserInDTOToUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/co/com/poli/userservice/persistence/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/co/com/poli/userservice/persistence/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/co/com/poli/userservice/service/UserServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/co/com/poli/userservice/service/UserServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/co/com/poli/userservice/service/dto/UserInDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/co/com/poli/userservice/UserRepositoryMockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/co/com/poli/userservice/UserServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/co/com/poli/userservice/UserServiceMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showtimes-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/controller/ShowtimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/controller/ShowtimeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/mapper/ShowtimeInDTOToShowtime.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/mapper/ShowtimeInDTOToShowtime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/dto/ShowtimeInDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/dto/ShowtimeInDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +256,7 @@
       <workItem from="1670897431534" duration="6367000" />
       <workItem from="1670940072508" duration="615000" />
       <workItem from="1670942294181" duration="2424000" />
-      <workItem from="1670980300426" duration="1350000" />
+      <workItem from="1670980300426" duration="2805000" />
     </task>
     <servers />
   </component>
