@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="042b281a-653e-41ea-8e4f-55db4f9d6bd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/movies-service/src/test/java/co/com/poli/movieservice/MovieRepositoryMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies-service/src/test/java/co/com/poli/movieservice/MovieServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies-service/src/test/java/co/com/poli/movieservice/MovieServiceMockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/BookingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/BookingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/ShowtimeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/ShowtimeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/test/java/co/com/poli/userservice/UserRepositoryMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/co/com/poli/userservice/UserRepositoryMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/test/java/co/com/poli/userservice/UserServiceMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/co/com/poli/userservice/UserServiceMockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/valen/Desktop/BookingMovie/bookings-service/src/main/java/co/com/poli/Bookingsservice/clientFeign",
+    "last_opened_file_path": "C:/Users/valen/Desktop/BookingMovie/movies-service/src/test/java/co/com/poli/movieservice",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -92,13 +93,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\valen\Desktop\BookingMovie\movies-service\src\test\java\co\com\poli\movieservice" />
       <recent name="C:\Users\valen\Desktop\BookingMovie\bookings-service\src\main\java\co\com\poli\Bookingsservice\clientFeign" />
       <recent name="C:\Users\valen\Desktop\BookingMovie\bookings-service\src\main\java\co\com\poli\Bookingsservice\model" />
       <recent name="C:\Users\valen\Desktop\BookingMovie" />
       <recent name="C:\Users\valen\Desktop\BookingMovie\bookings-service\src\main\java\co\com\poli\bookingsservice" />
-      <recent name="C:\Users\valen\Desktop\BookingMovie\showtimes-service\src\main\java\co\com\poli\Showtimesservice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.com.poli.movieservice" />
       <recent name="co.com.poli.userservice" />
       <recent name="co.com.poli.bookingsservice.service.dto" />
       <recent name="co.com.poli.Showtimesservice.service.dto" />
@@ -112,8 +114,54 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BookingServiceApplication">
-    <configuration name="UserRepositoryMockTest.when_findall_return_ListUser (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MovieServiceMockTest.when_findById_return_movie">
+    <configuration name="MovieRepositoryMockTest.when_FindById_return_user (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":movies-service:test" />
+            <option value="--tests" />
+            <option value="&quot;co.com.poli.movieservice.MovieRepositoryMockTest.when_FindById_return_user&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MovieServiceMockTest.when_findById_return_movie" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":movies-service:test" />
+            <option value="--tests" />
+            <option value="&quot;co.com.poli.movieservice.MovieServiceMockTest.when_findById_return_movie&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRepositoryMockTest.when_FindById_return_user" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -126,7 +174,7 @@
           <list>
             <option value=":user-service:test" />
             <option value="--tests" />
-            <option value="&quot;co.com.poli.userservice.UserRepositoryMockTest.when_findall_return_ListUser&quot;" />
+            <option value="&quot;co.com.poli.userservice.UserRepositoryMockTest.when_FindById_return_user&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,7 +207,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserServiceMockTest.when_findById_return_User" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserServiceMockTest.when_findById_return_user" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +220,7 @@
           <list>
             <option value=":user-service:test" />
             <option value="--tests" />
-            <option value="&quot;co.com.poli.userservice.UserServiceMockTest.when_findById_return_User&quot;" />
+            <option value="&quot;co.com.poli.userservice.UserServiceMockTest.when_findById_return_user&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -279,9 +327,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.UserRepositoryMockTest.when_findall_return_ListUser (1)" />
+      <item itemvalue="Gradle.MovieRepositoryMockTest.when_FindById_return_user (1)" />
+      <item itemvalue="Gradle.MovieServiceMockTest.when_findById_return_movie" />
+      <item itemvalue="Gradle.UserRepositoryMockTest.when_FindById_return_user" />
+      <item itemvalue="Gradle.UserServiceMockTest.when_findById_return_user" />
       <item itemvalue="Gradle.UserServiceMockTest.when_findById_return_Product" />
-      <item itemvalue="Gradle.UserServiceMockTest.when_findById_return_User" />
       <item itemvalue="Spring Boot.AdminServiceApplication" />
       <item itemvalue="Spring Boot.BookingServiceApplication" />
       <item itemvalue="Spring Boot.ConfigServiceApplication" />
@@ -293,9 +343,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MovieServiceMockTest.when_findById_return_movie" />
+        <item itemvalue="Gradle.MovieRepositoryMockTest.when_FindById_return_user (1)" />
+        <item itemvalue="Gradle.UserServiceMockTest.when_findById_return_user" />
+        <item itemvalue="Gradle.UserRepositoryMockTest.when_FindById_return_user" />
         <item itemvalue="Gradle.UserServiceMockTest.when_findById_return_Product" />
-        <item itemvalue="Gradle.UserServiceMockTest.when_findById_return_User" />
-        <item itemvalue="Gradle.UserRepositoryMockTest.when_findall_return_ListUser (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +365,7 @@
       <workItem from="1670980300426" duration="7519000" />
       <workItem from="1671056549696" duration="5662000" />
       <workItem from="1671066480168" duration="483000" />
-      <workItem from="1671066986381" duration="9995000" />
+      <workItem from="1671066986381" duration="13619000" />
     </task>
     <servers />
   </component>

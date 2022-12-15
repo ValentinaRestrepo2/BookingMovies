@@ -7,22 +7,25 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
-import java.util.List;
+import java.util.Optional;
 
 @DataJpaTest
-public class UserRepositoryMockTest {
+public class UserRepositoryMockTest  {
 
     @Autowired
     private UserRepository userRepository;
 
     @Test
-    public void when_findByCategory_return_ListProduct() {
-        User user = User.builder()
-                .name("Test")
-                .lastname("Prueba")
+
+    public void when_FindById_return_user(){
+        User user=User.builder()
+                .name("Juan")
+                .lastname("Alvarez") //Elimina este falla la prueba
                 .build();
         userRepository.save(user);
-        List<User> products = userRepository.findAll();
-        Assertions.assertThat(products.size()).isEqualTo(1);
+
+        Optional<User> user1=userRepository.findById(user.getId());
+        Assertions.assertThat(user);
+
     }
 }
