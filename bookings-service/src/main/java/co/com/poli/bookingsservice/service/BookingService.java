@@ -10,5 +10,7 @@ public interface BookingService {
     List<Booking> findAll();
     void save(BookingInDTO bookingInDTO);
     Booking findById(Long id);
-    void delete(Booking booking);
+    void delete(Long id);
+    List<Booking> ObtenerReservaUser(Long userid);
+
 }

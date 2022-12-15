@@ -5,40 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="042b281a-653e-41ea-8e4f-55db4f9d6bd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/controller/ShowtimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/ShowtimeInDTOToShowtime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/repository/ShowtimeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/ShowtimeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/ShowtimeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/dto/ShowtimeInDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookings-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/BookingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/BookingServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClientImplHystrixFallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClientImplHystrixFallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/ShowtimeClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/ShowtimeClientImplHystrixFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/UserClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/UserClientImplHystrixFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/controller/BookingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/helpers/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/helpers/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/helpers/ResponseBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/helpers/ResponseBuild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/BookingInDTOToBooking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/IMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/IMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/model/Showtime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/entity/Booking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/repository/BookingRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/dto/BookingInDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/test/java/co/com/poli/bookingsservice/BookingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/test/java/co/com/poli/bookingsservice/BookingServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-service/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/movies-service/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showtimes-service/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/ShowtimeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/ShowtimeServiceApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +112,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShowtimeServiceApplication">
+  <component name="RunManager" selected="Spring Boot.BookingServiceApplication">
     <configuration name="UserRepositoryMockTest.when_findall_return_ListUser (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -342,7 +313,7 @@
       <workItem from="1670980300426" duration="7519000" />
       <workItem from="1671056549696" duration="5662000" />
       <workItem from="1671066480168" duration="483000" />
-      <workItem from="1671066986381" duration="3613000" />
+      <workItem from="1671066986381" duration="9995000" />
     </task>
     <servers />
   </component>

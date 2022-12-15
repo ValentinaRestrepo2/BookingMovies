@@ -12,6 +12,7 @@ public class BookingInDTOToBooking implements IMapper<BookingInDTO, Booking> {
         booking.setUserid(in.getUserid());
         booking.setShowtimeid(in.getShowtimeid());
         booking.setMovies(in.getMovies());
+
         return booking;
     }
 }

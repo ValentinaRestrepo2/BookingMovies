@@ -20,12 +20,7 @@ public class BookingController {
 
     private final BookingService bookingService;
     private final ResponseBuild builder;
-    @GetMapping
-    public Response findAll(){
-        return builder.success(bookingService.findAll());
-    }
-
-    @PostMapping
+       @PostMapping
     public Response save(@Valid @RequestBody BookingInDTO bookingInDTO, BindingResult result){
         if(result.hasErrors()){
             return builder.failed(result);
@@ -34,8 +29,12 @@ public class BookingController {
         return builder.success(bookingInDTO);
     }
 
+    @GetMapping
+    public Response findAll(){
+        return builder.success(bookingService.findAll());
+    }
     @GetMapping("/{id}")
-    public Response getById(@PathVariable("id") Long id){
+    public Response findById(@PathVariable("id") Long id){
         Booking booking = bookingService.findById(id);
         if(booking == null){
             return builder.failed("Not found");
@@ -43,7 +42,22 @@ public class BookingController {
         return builder.success(booking);
     }
 
-    private List<Map<String, String>> formatMessage(BindingResult result) {
+    @GetMapping("/{userid}")
+    public Response ObtenerReservaUser(@PathVariable("userid") Long userid){
+        List<Booking> list = bookingService.ObtenerReservaUser(userid);
+        if(list == null){
+            return builder.failed("No se han encontrado reservas");
+        }
+        return builder.success(list);
+    }
+
+    @DeleteMapping("/{id}")
+    public Response delete(@PathVariable("id") Long id){
+        Booking booking = bookingService.findById(id);
+        bookingService.delete(id);
+        return builder.success(booking);
+    }
+        private List<Map<String, String>> formatMessage(BindingResult result) {
         List<Map<String, String>> errors = result.getFieldErrors().stream()
                 .map(error -> {
                     Map<String, String> err = new HashMap<>();

@@ -19,7 +19,4 @@ public class BookingInDTO {
     private Long showtimeid;
     @ElementCollection(targetClass = Long.class)
     private Collection<Long> movies;
-    private User user;
-    private Showtime showtime;
-    private List<Movie> listMovies;
 }

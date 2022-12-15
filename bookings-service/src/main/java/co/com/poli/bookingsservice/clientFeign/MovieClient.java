@@ -11,6 +11,6 @@ public interface MovieClient {
     @GetMapping("/bookmovies/api/v1/movies")
     Response findAll();
 
-    @GetMapping("/bookmovies/api/v1/movies/{id}")
+    @GetMapping("bookmovies/api/v1/movies/{id}")
     Response findById(@PathVariable("id") Long id);
 }
