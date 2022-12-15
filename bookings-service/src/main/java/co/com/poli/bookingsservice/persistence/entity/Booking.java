@@ -1,7 +1,7 @@
-package co.com.poli.bookingsservice.persistence.entity;
-import co.com.poli.bookingsservice.model.Movie;
-import co.com.poli.bookingsservice.model.Showtime;
-import co.com.poli.bookingsservice.model.User;
+package co.com.poli.Bookingsservice.persistence.entity;
+import co.com.poli.Bookingsservice.model.Movie;
+import co.com.poli.Bookingsservice.model.Showtime;
+import co.com.poli.Bookingsservice.model.User;
 import lombok.Getter;
 import lombok.Setter;
 

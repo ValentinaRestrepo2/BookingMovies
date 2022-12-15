@@ -1,4 +1,4 @@
-package co.com.poli.bookingsservice.helpers;
+package co.com.poli.Bookingsservice.helpers;
 
 import org.springframework.stereotype.Component;
 

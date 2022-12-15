@@ -1,25 +1,16 @@
-package co.com.poli.bookingsservice.service;
+package co.com.poli.Bookingsservice.service;
 
-
-import co.com.poli.bookingsservice.clientFeign.MovieClient;
-import co.com.poli.bookingsservice.clientFeign.ShowtimeClient;
-import co.com.poli.bookingsservice.clientFeign.UserClient;
-import co.com.poli.bookingsservice.mapper.BookingInDTOToBooking;
-import co.com.poli.bookingsservice.model.Movie;
-import co.com.poli.bookingsservice.model.Showtime;
-import co.com.poli.bookingsservice.model.User;
-import co.com.poli.bookingsservice.persistence.entity.Booking;
-import co.com.poli.bookingsservice.persistence.repository.BookingRepository;
-import co.com.poli.bookingsservice.service.dto.BookingInDTO;
+import co.com.poli.Bookingsservice.clientFeign.UserClient;
+import co.com.poli.Bookingsservice.mapper.BookingInDTOToBooking;
+import co.com.poli.Bookingsservice.persistence.entity.Booking;
+import co.com.poli.Bookingsservice.persistence.repository.BookingRepository;
+import co.com.poli.Bookingsservice.service.dto.BookingInDTO;
 import lombok.RequiredArgsConstructor;
-import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 @Service
 @RequiredArgsConstructor

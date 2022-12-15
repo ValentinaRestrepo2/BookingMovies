@@ -1,8 +1,8 @@
-package co.com.poli.bookingsservice.clientFeign;
+package co.com.poli.Bookingsservice.clientFeign;
 
-import co.com.poli.bookingsservice.helpers.Response;
-import co.com.poli.bookingsservice.helpers.ResponseBuild;
-import co.com.poli.bookingsservice.model.Showtime;
+import co.com.poli.Bookingsservice.helpers.Response;
+import co.com.poli.Bookingsservice.helpers.ResponseBuild;
+import co.com.poli.Bookingsservice.model.Showtime;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

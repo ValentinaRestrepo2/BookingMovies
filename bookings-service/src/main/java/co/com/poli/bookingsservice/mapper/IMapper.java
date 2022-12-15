@@ -1,4 +1,4 @@
-package co.com.poli.bookingsservice.mapper;
+package co.com.poli.Bookingsservice.mapper;
 
 public interface IMapper<I, O> {
     public O map(I in);

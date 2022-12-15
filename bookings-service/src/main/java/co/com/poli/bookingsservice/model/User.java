@@ -1,4 +1,4 @@
-package co.com.poli.bookingsservice.model;
+package co.com.poli.Bookingsservice.model;
 
 import lombok.Data;
 

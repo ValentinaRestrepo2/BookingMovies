@@ -1,12 +1,11 @@
-package co.com.poli.bookingsservice.service.dto;
+package co.com.poli.Bookingsservice.service.dto;
 
-import co.com.poli.bookingsservice.model.Movie;
-import co.com.poli.bookingsservice.model.Showtime;
-import co.com.poli.bookingsservice.model.User;
+import co.com.poli.Bookingsservice.model.Movie;
+import co.com.poli.Bookingsservice.model.Showtime;
+import co.com.poli.Bookingsservice.model.User;
 import lombok.Data;
 
 import javax.persistence.ElementCollection;
-import javax.persistence.Transient;
 import javax.validation.constraints.NotNull;
 import java.util.Collection;
 import java.util.List;

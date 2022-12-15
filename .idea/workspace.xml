@@ -5,16 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="042b281a-653e-41ea-8e4f-55db4f9d6bd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/controller/ShowtimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/ShowtimeInDTOToShowtime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/repository/ShowtimeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/ShowtimeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/ShowtimeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/dto/ShowtimeInDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/controller/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/BookingInDTOToBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/BookingInDTOToBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/repository/BookingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/dto/BookingInDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/dto/BookingInDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showtimes-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/controller/ShowtimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/controller/ShowtimeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/src/main/java/co/com/poli/Showtimesservice/service/ShowtimeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/BookingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/BookingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClientImplHystrixFallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/MovieClientImplHystrixFallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/ShowtimeClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/ShowtimeClientImplHystrixFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/UserClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/clientFeign/UserClientImplHystrixFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/controller/BookingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/helpers/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/helpers/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/helpers/ResponseBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/helpers/ResponseBuild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/BookingInDTOToBooking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/IMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/mapper/IMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/model/Showtime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/entity/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/persistence/repository/BookingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/BookingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/main/java/co/com/poli/bookingsservice/service/dto/BookingInDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings-service/src/test/java/co/com/poli/bookingsservice/BookingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookings-service/src/test/java/co/com/poli/bookingsservice/BookingServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-service/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/movies-service/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showtimes-service/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/showtimes-service/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +63,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -85,7 +110,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/valen/Downloads/7.deckofcards",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/valen/Desktop/BookingMovie/bookings-service/src/main/java/co/com/poli/Bookingsservice/clientFeign",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -95,11 +121,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\valen\Desktop\BookingMovie\bookings-service\src\main\java\co\com\poli\Bookingsservice\clientFeign" />
+      <recent name="C:\Users\valen\Desktop\BookingMovie\bookings-service\src\main\java\co\com\poli\Bookingsservice\model" />
+      <recent name="C:\Users\valen\Desktop\BookingMovie" />
       <recent name="C:\Users\valen\Desktop\BookingMovie\bookings-service\src\main\java\co\com\poli\bookingsservice" />
       <recent name="C:\Users\valen\Desktop\BookingMovie\showtimes-service\src\main\java\co\com\poli\Showtimesservice" />
-      <recent name="C:\Users\valen\Desktop\BookingMovie\movies-service\src\main\java\co\com\poli\movieservice" />
-      <recent name="C:\Users\valen\Desktop\BookingMovie\user-service\src\main\java\co\com\poli\userservice" />
-      <recent name="C:\Users\valen\Desktop\BookingMovie\user-service\src\main\java\co\com\poli\userservice\service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.com.poli.userservice" />
@@ -186,6 +212,11 @@
       <method v="2" />
     </configuration>
     <configuration name="AdminServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="CONFIG_USER" value="admin" />
+        <env name="CONFIG_PASSWORD" value="admin" />
+      </envs>
       <module name="bookingMovie.admin-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.poli.adminservice.AdminServiceApplication" />
       <method v="2">
@@ -193,13 +224,23 @@
       </method>
     </configuration>
     <configuration name="BookingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="CONFIG_USER" value="admin" />
+        <env name="CONFIG_PASSWORD" value="admin" />
+      </envs>
       <module name="bookingMovie.bookings-service.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.poli.bookingsservice.BookingServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.poli.Bookingsservice.BookingServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="CONFIG_USER" value="admin" />
+        <env name="CONFIG_PASSWORD" value="admin" />
+      </envs>
       <module name="bookingMovie.config-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.poli.configservice.ConfigServiceApplication" />
       <method v="2">
@@ -207,6 +248,11 @@
       </method>
     </configuration>
     <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="CONFIG_USER" value="admin" />
+        <env name="CONFIG_PASSWORD" value="admin" />
+      </envs>
       <module name="bookingMovie.eureka-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.poli.eurekaservice.EurekaServiceApplication" />
       <method v="2">
@@ -214,6 +260,11 @@
       </method>
     </configuration>
     <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="CONFIG_USER" value="admin" />
+        <env name="CONFIG_PASSWORD" value="admin" />
+      </envs>
       <module name="bookingMovie.gateway-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.poli.gatewayservice.GatewayServiceApplication" />
       <method v="2">
@@ -221,6 +272,11 @@
       </method>
     </configuration>
     <configuration name="MovieServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="CONFIG_USER" value="admin" />
+        <env name="CONFIG_PASSWORD" value="admin" />
+      </envs>
       <module name="bookingMovie.movies-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.poli.movieservice.MovieServiceApplication" />
       <method v="2">
@@ -228,6 +284,11 @@
       </method>
     </configuration>
     <configuration name="ShowtimeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="CONFIG_USER" value="admin" />
+        <env name="CONFIG_PASSWORD" value="admin" />
+      </envs>
       <module name="bookingMovie.showtimes-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.poli.Showtimesservice.ShowtimeServiceApplication" />
       <method v="2">
@@ -235,12 +296,30 @@
       </method>
     </configuration>
     <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="CONFIG_USER" value="admin" />
+        <env name="CONFIG_PASSWORD" value="admin" />
+      </envs>
       <module name="bookingMovie.user-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.poli.userservice.UserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.UserRepositoryMockTest.when_findall_return_ListUser (1)" />
+      <item itemvalue="Gradle.UserServiceMockTest.when_findById_return_Product" />
+      <item itemvalue="Gradle.UserServiceMockTest.when_findById_return_User" />
+      <item itemvalue="Spring Boot.AdminServiceApplication" />
+      <item itemvalue="Spring Boot.BookingServiceApplication" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
+      <item itemvalue="Spring Boot.MovieServiceApplication" />
+      <item itemvalue="Spring Boot.ShowtimeServiceApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.UserServiceMockTest.when_findById_return_Product" />
@@ -260,7 +339,10 @@
       <workItem from="1670897431534" duration="6367000" />
       <workItem from="1670940072508" duration="615000" />
       <workItem from="1670942294181" duration="2424000" />
-      <workItem from="1670980300426" duration="7165000" />
+      <workItem from="1670980300426" duration="7519000" />
+      <workItem from="1671056549696" duration="5662000" />
+      <workItem from="1671066480168" duration="483000" />
+      <workItem from="1671066986381" duration="3613000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
-package co.com.poli.bookingsservice.service;
+package co.com.poli.Bookingsservice.service;
 
-import co.com.poli.bookingsservice.persistence.entity.Booking;
-import co.com.poli.bookingsservice.service.dto.BookingInDTO;
+import co.com.poli.Bookingsservice.persistence.entity.Booking;
+import co.com.poli.Bookingsservice.service.dto.BookingInDTO;
 
 import java.util.List;
 
